@@ -4,7 +4,9 @@
   margin: 60px auto 0;
   border: 1px solid #808080;
   border-radius: 6px;
-  background-color: #8FBC8F;
+background-color: #DDF7F8;
+  
+  
   box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.1);
   
 }
@@ -37,10 +39,12 @@ input[name="cvv"]{
 button,
 input[type="submit"] {
     font-weight: bold;
-  background:  #A52A2A;;
+    background-color: #045246;    
+
+    
   border: none;
-  border-bottom: 3px solid #A52A2A;;
-  color: #fff;
+  border-bottom: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  color: WHITE;
   display: inline-block;
   padding: 8px;
   vertical-align: bottom;
@@ -62,8 +66,9 @@ button:focus,
 input[type="submit"]:focus,
 button:hover,
 input[type="submit"]:hover {
-  background:#DC143C;
+  
   outline: none;
+
 }
 button:active,
 input[type="submit"]:active,
@@ -103,6 +108,10 @@ input[name = "cvc"]
   width: 50px;
 }
 
+input[name = "expiry"] {
+  width: 50px;
+  margin-left:30px;
+}
 .border{
 position: absolute;
 display: block;
@@ -123,4 +132,11 @@ input.form-submit {
   width: 100%;
   
 }
+
+.dis{
+ display: flex;
+
+}
+
+
 

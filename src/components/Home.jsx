@@ -38,7 +38,7 @@ number={data.number}
     <input     
            type="number"     
            name="number"     
-           placeholder="Card Number"     
+           placeholder="Card Number "     
            onChange={handleInputChange}    
         />
     <input     
@@ -47,6 +47,7 @@ number={data.number}
            placeholder="CVC"     
            onChange={handleInputChange}    
         />    
+        <div className = {s.dis}>
         <input     
            type="text"     
            name="expiry"       
@@ -60,6 +61,9 @@ number={data.number}
            onChange={handleInputChange}    
         />   
 
+
+        </div>
+        
         <input
          type = "submit" value = "Pay"/> 
         </div>  
